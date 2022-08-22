@@ -5,165 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b31c6c96-8a7f-4f2e-a8c8-ad05aaaaa45c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EstateBack/src/main/java/com/hongrider/config/CrossConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstateBack/src/main/java/com/hongrider/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstateBack/src/main/java/com/hongrider/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstateBack/src/main/java/com/hongrider/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstateBack/src/test/java/com/hongrider/repository/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot/springboot_interface_annotation/src/main/java/com/hongrider/config/JsAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springlearn/spring_getstart/src/main/java/com/hongrider/controller/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springlearn/spring_getstart/src/main/java/com/hongrider/domain/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_vue/vuefront/src/views/Learn.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_vue/vuefront/src/views/Users.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/config/MPConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/controller/BookController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/controller/utils/ProjectExceptionAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/controller/utils/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/oldSSMPApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/service/IBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/service/impl/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/java/com/basika/service/impl/BookServiceImpl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/js/axios-0.18.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/pages/books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/test/java/com/basika/dao/BookDaoTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/test/java/com/basika/service/BookServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../old_springboot_08_ssmp/src/test/java/com/basika/service/BookServiceTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/biji" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/src/main/java/com/basika/Springboot05MybatisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/src/main/java/com/basika/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/src/main/java/com/basika/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_05_mybatis/src/test/java/com/basika/Springboot05MybatisApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/src/main/java/com/basika/Springboot06MybatisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/src/main/java/com/basika/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/src/main/java/com/basika/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis/src/test/java/com/basika/Springboot06MybatisApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis_plus/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis_plus/src/main/java/com/basika/Springboot06MybatisPlusApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis_plus/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_06_mybatis_plus/src/test/java/com/basika/Springboot06MybatisPlusApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/SSMPApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/config/MPConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/controller/BookController2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/controller/utils/ProjectExceptionAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/controller/utils/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/service/BookService2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/service/IBookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/service/impl/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/java/com/basica/service/impl/BookServiceImpl2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/js/axios-0.18.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/pages/books.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/elementui/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/test/java/com/basica/dao/BookDaoTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/test/java/com/basica/service/BookServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_08_ssmp/src/test/java/com/basica/service/BookServiceTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_0x_xxxx/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_0x_xxxx/src/main/java/com/basika/springboot_01_02/Springboot0102Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_0x_xxxx/src/main/java/com/basika/springboot_01_02/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_0x_xxxx/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_0x_xxxx/src/test/java/com/basika/springboot_01_02/Springboot0102ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/src/main/java/com/basika/Springboot13ConfigurationApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/src/main/java/com/basika/config/ServerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/src/test/java/com/basika/Springboot13ConfigurationApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/target/classes/com/basika/Springboot13ConfigurationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/target/classes/com/basika/config/ServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_13_configuration/target/test-classes/com/basika/Springboot13ConfigurationApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/Springboot14TestApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/java/com/moment/service/impl/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/Config/MsgConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/ConfigurationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/DaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/PropertiesAndArgsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/WebTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_14_test/src/test/java/com/moment/testcase/BookCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/src/main/java/com/charman/Springboot15SqlApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/src/main/java/com/charman/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/src/main/java/com/charman/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_15_sql/src/test/java/com/charman/Springboot15SqlApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_16_redis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_16_redis/src/main/java/com/basika/Springboot16RedisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_16_redis/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_16_redis/src/test/java/com/basika/Springboot16RedisApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_17_mongodb/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_17_mongodb/src/main/java/com/basika/Springboot17MongodbApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_17_mongodb/src/main/java/com/basika/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_17_mongodb/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_17_mongodb/src/test/java/com/basika/Springboot17MongodbApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/config/MPConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/controller/MsgController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/controller/SMSCodeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/controller/utils/CodeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/domain/SMSCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/MsgService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/SMSCodeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/impl/BookServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/impl/MsgServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/service/impl/SMSCodeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/java/com/basica/spingboot19cache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/main/resources/ehcache.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/test/java/com/basica/dao/BookDaoTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot_19_cache/src/test/java/com/basica/service/BookServiceTestCase.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstateBack/src/test/java/com/hongrider/controller/ControllerSmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstateBack/src/test/java/com/hongrider/controller/HttpRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EstateBack/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/EstateBack/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,11 +18,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -212,14 +57,57 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EstateBack" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EstateBackApplication">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hongrider.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpRequestTest.greetingShouldReturnDefaultMessage">
+    <configuration name="ControllerSmokeTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EstateBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongrider.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hongrider.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hongrider.controller.ControllerSmokeTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EstateBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongrider.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hongrider.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hongrider.controller.HttpRequestTest" />
+      <option name="METHOD_NAME" value="greetingShouldReturnDefaultMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EstateBack" />
       <extension name="coverage">
@@ -247,22 +135,6 @@
       <option name="PACKAGE_NAME" value="com.hongrider.repository" />
       <option name="MAIN_CLASS_NAME" value="com.hongrider.repository.UserRepositoryTest" />
       <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EstateBack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hongrider.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hongrider.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.hongrider.repository.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,10 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpRequestTest.greetingShouldReturnDefaultMessage" />
+        <item itemvalue="JUnit.ControllerSmokeTest.contextLoads" />
         <item itemvalue="JUnit.UserRepositoryTest.delete" />
         <item itemvalue="JUnit.UserRepositoryTest.update" />
         <item itemvalue="JUnit.UserRepositoryTest.findById" />
-        <item itemvalue="JUnit.UserRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -325,6 +198,7 @@
       <workItem from="1660749850713" duration="283000" />
       <workItem from="1660750153628" duration="134000" />
       <workItem from="1660750331601" duration="8894000" />
+      <workItem from="1661144395952" duration="2323000" />
     </task>
     <servers />
   </component>

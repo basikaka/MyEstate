@@ -17,6 +17,11 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @GetMapping("/")
+    public String Greeting(){
+        return "Hello, World";
+    }
+
     @GetMapping("/all/{page}/{size}")
     public Page<User> findAll(@PathVariable("page") Integer page,
                               @PathVariable("size") Integer size){
@@ -56,4 +61,5 @@ public class UserController {
         userRepository.deleteById(id);
 
     }
+
 }
