@@ -23,3 +23,17 @@ insert into user (name,  password, email) values ("jerry", "1111111", "jerryy@ga
 insert into user (name,  password, email) values ("tom", "1111111", "tom@gamil.com");
 insert into user (name,  password, email) values ("hiroko", "1111111", "hiroko@gamil.com");
 insert into user (name,  password, email) values ("mathen", "1111111", "mathen@gamil.com");
+
+insert into user (name,  password, email) values ("kyoka", "1111111", "kyoka@hotmail.com");
+insert into user (name,  password, email) values ("monster", "1111111", "monster@gamil.com");
+insert into user (name,  password, email) values ("giant", "1111111", "giant@gamil.com");
+insert into user (name,  password, email) values ("zyko", "1111111", "zyko@gamil.com");
+insert into user (name,  password, email) values ("dykens", "1111111", "dykens@gamil.com");
+insert into user (name,  password, email) values ("rochica", "1111111", "rochica@gamil.com");
+
+insert into user (name,  password, email) values ("Emma", "1111111", "Emma@hotmail.com");
+insert into user (name,  password, email) values ("Olivia", "1111111", "Olivia@gamil.com");
+insert into user (name,  password, email) values ("Isabella", "1111111", "Isabella@gamil.com");
+insert into user (name,  password, email) values ("Sophia", "1111111", "Sophia@gamil.com");
+insert into user (name,  password, email) values ("Mia", "1111111", "Mia@gamil.com");
+insert into user (name,  password, email) values ("Amelia", "1111111", "Amelia@gamil.com");
