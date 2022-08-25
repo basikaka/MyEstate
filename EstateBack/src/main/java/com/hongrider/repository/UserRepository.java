@@ -4,4 +4,7 @@ import com.hongrider.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
+   public  default String greet(){
+      return "Hello, World";
+   }
 }
