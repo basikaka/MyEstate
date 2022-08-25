@@ -1,4 +1,4 @@
-package com.hongrider.controller;
+package com.hongrider.controller.study;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -15,14 +15,14 @@ import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class ControllerMockTest {
+class HomeControllerMockTest {
 
     @Autowired
     private MockMvc mockMvc;
 
     @Test
     public void homeAllReturnMessage() throws Exception{
-        this.mockMvc.perform(get("/user/")).andDo(print()).andExpect(status().isOk())
+        this.mockMvc.perform(get("/home/greeting")).andDo(print()).andExpect(status().isOk())
                 .andExpect(content().string(containsString("Hello, World")));
     }
 }

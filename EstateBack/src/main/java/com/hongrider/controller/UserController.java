@@ -18,11 +18,6 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @GetMapping("/")
-    public String Greeting(){
-        return userRepository.greet();
-    }
-
     @GetMapping("/all/{page}/{size}")
     public Page<User> findAll(@PathVariable("page") Integer page,
                               @PathVariable("size") Integer size){

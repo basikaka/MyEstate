@@ -54,8 +54,4 @@ class UserRepositoryTest {
         userRepository.deleteById(4);
     }
 
-    @Test
-    void chinese(){
-        System.out.println("好吃");
-    }
 }

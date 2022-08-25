@@ -1,4 +1,4 @@
-package com.hongrider.controller;
+package com.hongrider.controller.study;
 
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +11,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class HttpRequestTest {
+public class HomeHttpRequestTest {
 
     @LocalServerPort
     private int port;
@@ -21,7 +21,7 @@ public class HttpRequestTest {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/user/",
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/home/greeting",
                 String.class)).contains("Hello, World");
     }
 }
