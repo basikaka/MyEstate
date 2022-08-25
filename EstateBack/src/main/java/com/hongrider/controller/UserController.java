@@ -20,7 +20,7 @@ public class UserController {
 
     @GetMapping("/")
     public String Greeting(){
-        return "Hello, World";
+        return userRepository.greet();
     }
 
     @GetMapping("/all/{page}/{size}")
