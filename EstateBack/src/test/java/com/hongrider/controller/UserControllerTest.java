@@ -5,7 +5,7 @@ import com.hongrider.entity.User;
 import com.hongrider.repository.UserRepository;
 import org.apache.tomcat.util.buf.Utf8Encoder;
 import org.json.JSONObject;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -42,10 +42,21 @@ class UserControllerTest {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @Test
-    void findAll() throws Exception {
+    private User user;
 
-        User user = new User();
+    @BeforeAll
+    public static void init(){
+        System.out.println("数据初始化");
+    }
+
+    @AfterAll
+    public static void cleanup(){
+        System.out.println("数据清理");
+    }
+
+    @BeforeEach
+    void tearUp(){
+        this.user = new User();
         user.setName("giant");
         user.setEstate("马踏飞燕");
         user.setPassword("111111");
@@ -53,7 +64,16 @@ class UserControllerTest {
         user.setRole("租户");
         user.setAlias("巨人");
         user.setId(999);
+        System.out.println("I am tear up...");
+    }
 
+    @AfterEach
+    void tearDown(){
+        System.out.println("I am tear down...");
+    }
+
+    @Test
+    void findAll() throws Exception {
 
         List<User> users = new ArrayList<>();
         users.add(user);
@@ -86,14 +106,6 @@ class UserControllerTest {
 
     @Test
     void save() throws  Exception{
-        User user = new User();
-        user.setName("giant");
-        user.setEstate("马踏飞燕");
-        user.setPassword("111111");
-        user.setEmail("giant@sohu.com");
-        user.setRole("租户");
-        user.setAlias("巨人");
-        user.setId(999);
 
         String jsonRequest =  objectMapper.writeValueAsString( user );
 
