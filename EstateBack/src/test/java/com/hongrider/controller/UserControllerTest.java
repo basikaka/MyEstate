@@ -1,5 +1,6 @@
 package com.hongrider.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hongrider.entity.User;
 import com.hongrider.repository.UserRepository;
@@ -20,10 +21,12 @@ import org.springframework.transaction.annotation.Transactional;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.isA;
 import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -144,14 +147,69 @@ class UserControllerTest {
     }
 
     @Test
-    void findById() {
+    void findById() throws Exception {
+        Optional<User> op_user = Optional.of(user);
+        when(userRepository.findById(isA( Integer.class))).thenReturn(op_user);
+        String result = mockMvc.perform( get("/user/select/{id}", this.user.getId()))
+                .andDo( print())
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andReturn()
+                .getResponse()
+                .getContentAsString( Charset.defaultCharset() );
+
+        System.out.println( "<<<<<<<<<<<<<<<<<<<<<1\n" + result + "\n1>>>>>>>>>>>>>>>>>>>>>>>");
+
+
+        String result_2 = mockMvc.perform(get("/user/select/{id}", this.user.getId()))
+                .andDo( print())
+                .andExpect( status().isOk())
+                .andExpect( content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect( jsonPath("$.id").value(999))
+                .andExpect(jsonPath("$.name").value("giant"))
+                .andExpect(jsonPath("$.email").value("giant@sohu.com"))
+                .andExpect( jsonPath("$.alias").value("巨人"))
+                .andReturn()
+                .getResponse()
+                .getContentAsString(Charset.defaultCharset());
     }
 
     @Test
-    void update() {
+    void update() throws Exception {
+        String jsonRequest =  objectMapper.writeValueAsString( user );
+
+        when(userRepository.save( isA(User.class) )).thenReturn( user );
+        String result = mockMvc.perform( put("/user/update")
+                        .accept(MediaType.APPLICATION_JSON)
+                        .content(jsonRequest)
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andDo(print())
+                .andReturn()
+                .getResponse()
+                .getContentAsString(Charset.defaultCharset());
+        System.out.println( "<<<<<<<<<<<<<<<<<<<<<\n" + result + "\n>>>>>>>>>>>>>>>>>>>>>>>" );
+
+        mockMvc.perform( put("/user/update")
+                        .accept(MediaType.APPLICATION_JSON)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(jsonRequest))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$").value("succeed"));
     }
 
     @Test
-    void deleteById() {
+    void update_null () throws Exception{
+        User user = new User();
+
+        mockMvc.perform( put("/user/update")
+                        .accept(MediaType.APPLICATION_JSON)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content( objectMapper.writeValueAsString( user )))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$").value("failed"));
+
     }
+
 }

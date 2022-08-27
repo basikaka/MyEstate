@@ -27,13 +27,7 @@ public class UserController {
 
     @PostMapping("/save")
     public String save(@RequestBody User user){
-        User saved = userRepository.save( user );
-
-        if(saved != null ){
-            return "succeed";
-        }else {
-            return "failed";
-        }
+        return save_to_database(user);
     }
 
     @GetMapping("/select/{id}")
@@ -43,7 +37,11 @@ public class UserController {
 
     @PutMapping("/update")
     public String update(@RequestBody User user){
-        User saved = userRepository.save( user );
+        return save_to_database(user);
+    }
+
+    private String save_to_database(User user) {
+        User saved = userRepository.save(user);
 
         if(saved != null ){
             return "succeed";
