@@ -1,19 +1,18 @@
 show databases;
-create database myneighbors;
+drop database if exists database_test ;
+create database database_test;
 
-select  * from user;
-use myneighbors;
+use database_test;
 
-   
 CREATE TABLE IF NOT EXISTS `user`(
 `id` INT UNSIGNED AUTO_INCREMENT KEY COMMENT '编号',
 `name` VARCHAR(20) NOT NULL UNIQUE COMMENT '用户名',
-`alais` VARCHAR(20) not null default '小名' COMMENT '别名',
+`alias` VARCHAR(20) not null default '小名' COMMENT '别名',
 `password` CHAR(32) NOT NULL COMMENT '密码',
 `email` VARCHAR(50) NOT NULL UNIQUE COMMENT '邮箱',
 `role` VARCHAR(10) NOT NULL default '业主' COMMENT '角色',
 `estate` VARCHAR(30) default '富力半岛' COMMENT '小区'
-)ENGINE=INNODB DEFAULT CHARSET=UTF8mb4;
+)ENGINE=INNODB DEFAULT CHARSET=UTF8;
 
 insert into user (name,  password, email) values ("harry", "1111111", "harry@gamil.com");
 
