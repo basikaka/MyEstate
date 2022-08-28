@@ -1,6 +1,18 @@
+#spring:
+#  datasource:
+#    url: "jdbc:mysql://localhost:3306/database_test?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai"
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: xu123456
+
+#使用H2数据库测试
 spring:
   datasource:
-    url: "jdbc:mysql://localhost:3306/database_test?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai"
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: xu123456
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
