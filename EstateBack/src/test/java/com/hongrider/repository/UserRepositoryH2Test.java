@@ -9,6 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
@@ -21,6 +23,7 @@ public class UserRepositoryH2Test {
     private EntityManager entityManager;
 
     @Test
+    @Transactional
     void save() {
         User user = new User();
         user.setName("shiny");
@@ -39,6 +42,7 @@ public class UserRepositoryH2Test {
     }
 
     @Test
+    @Transactional
     void findAll(){
         User user1 = new User();
         user1.setName("shiny");
@@ -74,6 +78,7 @@ public class UserRepositoryH2Test {
     }
 
     @Test
+    @Transactional
     void  delete(){
         User user1 = new User();
         user1.setName("shiny");
@@ -126,7 +131,8 @@ public class UserRepositoryH2Test {
 
         entityManager.persist(user1);
 
-        User user = userRepository.findById(1).get();
+        List<User> users = userRepository.findByName("yuki");
+        User user = users.get(0);
         user.setEstate("南国花园");
         user.setRole("租客");
         User updatedUser = userRepository.save(user);
